@@ -1,0 +1,25 @@
+.table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    font: normal 16px "Inter", sans-serif;
+    border-collapse: collapse;
+}
+
+.table__cell {
+    border: 1px solid silver;
+    padding: 12px;
+}
+
+.table__cell--header {
+    background-color: rgb(45, 45, 45);
+    color: rgba(241, 241, 241, 0.9);
+}
+
+.table__row:nth-child(even) {
+    background: #bbb;
+}
+
+.table__row:hover {
+    background: #aaa;
+}
