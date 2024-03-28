@@ -5,15 +5,6 @@
     overflow-x: auto;
 }
 
-.container__head {
-    color: antiquewhite;
-    background-color: hsla(204, 77%, 19%, 0.9);
-    padding: 5px;
-    margin: 5px auto;
-    outline: 2px solid rgb(45, 45, 45);
-    font-family: 'Inter', sans-serif;
-}
-
 .container__main {
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
@@ -29,6 +20,7 @@
 }
 
 .container__element--interesting {
+    padding: 10px;
     color: rgba(241, 241, 241, 0.9);
     background-color: rgb(45, 45, 45);
 }
@@ -54,15 +46,7 @@
     border-style: none;
 }
 
-.listNav {
-    display: inline-block;
-    margin: 40 auto;
-    margin-inline: 10px;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    list-style-type: none;
-}
+
 
 .link {
     color: lightslategray;

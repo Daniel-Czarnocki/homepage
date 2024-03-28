@@ -1,0 +1,29 @@
+.navigation {
+    display: inline-block;
+    margin: 40 auto;
+    margin-inline: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.navigation__list {
+    display: inline-block;
+    margin: 40 auto;
+    margin-inline: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.navigation__element {
+    display: inline-block;
+    margin: 40 auto;
+    margin-inline: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    list-style-type: none;
+}

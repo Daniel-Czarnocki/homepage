@@ -10,7 +10,9 @@
     <link rel="icon" href="images/title.png">
     <meta property ="og:image" content="images/share.png">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
+    <link href="css/element.css" rel="stylesheet">
     <link href="css/article.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -22,15 +24,16 @@
 </head>
 
 <body class="container">
-    <header>
-        <h1 class="container__head">O mnie</h1>
+    <div class="element">
+    <header class="header">
+        <h1 class="header__main">O mnie</h1>
     </header>
 
-    <nav class="listNav">
-        <ul class="listNav">
-            <li class="listNav"><a class="link" href="#first-section">Praca</a></li>
-            <li class="listNav"><a class="link" href="#second-section">Wykształcenie</a></li>
-            <li class="listNav"><a class="link" href="#third-section">Zainteresowania</a></li>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__element"><a class="link" href="#first-section">Praca</a></li>
+            <li class="navigation__element"><a class="link" href="#second-section">Wykształcenie</a></li>
+            <li class="navigation__element"><a class="link" href="#third-section">Zainteresowania</a></li>
         </ul>
     </nav>
 
@@ -39,7 +42,7 @@
             <h2 class="container__main"> Kursant youcode </h2>
             <p>
             <img class="foto js-foto"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQEKwGQCC1ZrFQ/profile-displayphoto-shrink_200_200/0/1531163490407?e=1674691200&v=beta&t=-HlcHUlVqzX8HlI6fBGsyX71Zj-Y8We3lNt38YjRm2s"
+                src="images/zdjecie.jpg"
                 alt="Daniel Czarnocki">
             </p>
             <p>
@@ -116,11 +119,11 @@
             </table>
         </article>
     </main>
-    <footer class="foot">
+    <footer class="footer">
         (c) Kopyrajt, orajt?
     </footer>
     
-
+</div>
 </body>
 
 </html>
