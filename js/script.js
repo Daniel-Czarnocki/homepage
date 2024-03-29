@@ -1,6 +1,6 @@
 console.log("console check");
 
-let button = document.querySelector(".button");
+let button = document.querySelector(".js-button");
 let foto = document.querySelector(".js-foto");
 let showHide = document.querySelector(".js-showHide");
 

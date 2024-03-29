@@ -6,6 +6,11 @@
     border-collapse: collapse;
 }
 
+.table__header {
+    padding: 10px;
+    color: #bbb;
+}
+
 .table__cell {
     border: 1px solid silver;
     padding: 12px;
@@ -20,6 +25,11 @@
     background: #bbb;
 }
 
+.table__row:nth-child(odd) {
+    color: #bbb;
+}
+
 .table__row:hover {
     background: #aaa;
+    color: black;
 }

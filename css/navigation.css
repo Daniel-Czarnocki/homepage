@@ -1,17 +1,21 @@
 .navigation {
-    display: inline-block;
-    margin: 40 auto;
-    margin-inline: 10px;
+    display: inline block;
+    color: antiquewhite;
+    /*background-color: hsla(204, 77%, 19%, 0.9);*/
+    padding: 15px;
+    margin: 5px auto;
+
+    
+    
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     list-style-type: none;
 }
-
 .navigation__list {
-    display: inline-block;
-    margin: 40 auto;
-    margin-inline: 10px;
+    /*display: inline-block;*/
+    margin: 0 auto;
+    margin-inline: 5px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -19,11 +23,33 @@
 }
 
 .navigation__element {
-    display: inline-block;
-    margin: 40 auto;
-    margin-inline: 10px;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    list-style-type: none;
+    text-decoration: none;
+}
+
+.navigation__link {
+    /*display: inline-block;*/
+    color: hsl(19,11%,68%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation__link:visited {
+    color: hsla(204, 48%, 72%, 0.9);
+    font-weight: bold;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+    font-weight: bold;
+}
+
+.navigation__link:hover {
+    color: hsla(22, 47%, 49%, 0.9);
+    outline: rgb(45, 45, 45);
+    font-weight: bold;
+}
+
+.navigation__link:active {
+    outline: 3px solid currentColor;
+    font-weight: bold;
 }

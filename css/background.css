@@ -1,0 +1,5 @@
+.background {
+        background: top / contain no-repeat url("../images/background.jpg") rgb(49, 49, 49);
+        max-width: 1000px;
+        
+}

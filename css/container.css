@@ -1,13 +1,16 @@
 .container {
-    padding: 0 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 25px;
     max-width: 1000px;
     margin: 0 auto;
     overflow-x: auto;
 }
 
 .container__main {
-    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    padding: 25px;
     line-height: 1.5;
+    color: #bbb;
 }
 
 .container__element {
@@ -25,10 +28,21 @@
     background-color: rgb(45, 45, 45);
 }
 
-.container__showHide {
+.container__button {
+    margin: auto;
+    padding: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     line-height: 1.5;
+}
+
+.container__button--showHide {
+    font-weight: bold;
+}
+
+.container__aside {
+    color: #bbb;
+    padding: 25px;
 }
 
 .foto {
@@ -46,8 +60,6 @@
     border-style: none;
 }
 
-
-
 .link {
     color: lightslategray;
     text-decoration: blue;
@@ -55,7 +67,7 @@
 }
 
 .link:visited {
-    color: hsla(204, 77%, 19%, 0.9);
+    color: hsla(195, 2%, 44%, 0.9);
     font-weight: bold;
 }
 
@@ -65,7 +77,7 @@
 }
 
 .link:hover {
-    color: blue;
+    color: rgb(241, 213, 160);
     outline: rgb(45, 45, 45);
     font-weight: bold;
 }
