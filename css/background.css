@@ -1,5 +1,21 @@
 .background {
         background: top / contain no-repeat url("../images/background.jpg") rgb(49, 49, 49);
         max-width: 1000px;
-        
+}
+
+.background__button {
+        margin: 15px;
+        padding: 5px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        line-height: 1.5;
+}
+
+.background__button--showHide {
+        font-weight: bold;
+}
+
+.background__noFoto {
+        background: rgb(49, 49, 49);
+        max-width: 1000px;
 }

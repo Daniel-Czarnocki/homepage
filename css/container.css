@@ -28,9 +28,11 @@
     background-color: rgb(45, 45, 45);
 }
 
+/*
 .container__button {
-    margin: auto;
-    padding: 10px;
+    display: block;
+    margin: 17px;
+    padding: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     line-height: 1.5;
@@ -39,6 +41,7 @@
 .container__button--showHide {
     font-weight: bold;
 }
+*/
 
 .container__aside {
     color: #bbb;
@@ -47,7 +50,7 @@
 
 .foto {
     margin:auto;
-    display: block;
+    display: flex;
     width: 200px;
     border-color: rgb(45, 45, 45);
     border-radius: 50%;
@@ -56,9 +59,12 @@
     box-shadow: 2px 3px 3px 1px rgba(66, 66, 68, 0.9);
 }
 
-.foto__noborder {
+/*.foto__noborder {
+    display: flex;
+    width: 600px;
+    border-radius: 0;
     border-style: none;
-}
+}*/
 
 .link {
     color: lightslategray;

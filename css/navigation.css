@@ -1,9 +1,9 @@
 .navigation {
-    display: inline block;
     color: antiquewhite;
     /*background-color: hsla(204, 77%, 19%, 0.9);*/
-    padding: 15px;
-    margin: 5px auto;
+    padding: 0 px;
+    margin-top: 15px;
+    
 
     
     
@@ -15,7 +15,7 @@
 .navigation__list {
     /*display: inline-block;*/
     margin: 0 auto;
-    margin-inline: 5px;
+    margin-inline: 0 px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 1.5;
