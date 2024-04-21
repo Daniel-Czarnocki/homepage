@@ -28,21 +28,6 @@
     background-color: rgb(45, 45, 45);
 }
 
-/*
-.container__button {
-    display: block;
-    margin: 17px;
-    padding: 50px;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-.container__button--showHide {
-    font-weight: bold;
-}
-*/
-
 .container__aside {
     color: #bbb;
     padding: 25px;
@@ -58,13 +43,6 @@
     border-style: groove;
     box-shadow: 2px 3px 3px 1px rgba(66, 66, 68, 0.9);
 }
-
-/*.foto__noborder {
-    display: flex;
-    width: 600px;
-    border-radius: 0;
-    border-style: none;
-}*/
 
 .link {
     color: lightslategray;
